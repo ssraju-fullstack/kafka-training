@@ -11,7 +11,7 @@ Use the code from this repo
   * Producer app creates & produces events to topic _wikimedia_recentchange_
   * Refer to kafka-producer/application.properties file for producer config
   
-- consume from topic - Run KafkaConsumerApplication 
+- Consume from topic - Run KafkaConsumerApplication 
   * Consumer app created consumer group _my-Wikimedia-CG_ 
   * Consumer app reads data from topic _wikimedia_recentchange_ and logs it
   * Refer to kafka-consumer/application.properties file for consumer config
